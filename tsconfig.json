@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "target": "ES2016",
+    "module": "commonjs",
+    "outDir": "./build",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true //Two libraries could define two copies of the same type in an inconsistent way. 
+  }
+}
